@@ -1,9 +1,13 @@
 import streamlit as st
 import os
 import tempfile
+from dotenv import load_dotenv
 from document_processor import DocumentProcessor
 from vector_store import VectorStore
 from rag_engine import RAGEngine
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Initialize session state
 if 'chat_history' not in st.session_state:
