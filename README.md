@@ -1,5 +1,3 @@
----
-
 ## 📄 DocumentCompanion
 
 **DocumentCompanion** is an AI-powered web application built with **Streamlit** that helps users quickly extract, summarize, and interact with the content of uploaded documents.
@@ -39,27 +37,3 @@ uv pip install -r requirements.txt
 
 # Run the app
 uv run streamlit run app.py
-```
-
----
-
-### 🔒 Environment Variables
-
-To store API keys and config values, create a `.env` file:
-
-```
-OPENAI_API_KEY=your_key_here
-```
-
-`.env` is included in `.gitignore` and won’t be tracked.
-
----
-
-### 📌 To-Do
-
-* Add OCR support for scanned PDFs
-* Improve UI/UX
-* Add document saving/export options
-
----
-
